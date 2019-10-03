@@ -14,7 +14,7 @@ public class MyAdventure : MonoBehaviour
         deelja,
         leukgesprek
     }
-
+    private bool veranderd;
     private States currentState = States.start; // Bijhouden wat de huidige state is
     
     // Start is called before the first frame update
